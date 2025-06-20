@@ -22,7 +22,7 @@ public class BookApiController {
     // LB가 EC2에 jar배포 후 / 로 헬스 체크 하는 주소
     @GetMapping("/")
     public String home() {
-        return "<h1>aws-v5</h1>";
+        return "<h1>aws-v5 테스트 1</h1>";
     }
 
     @PostMapping("/api/book")
